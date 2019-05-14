@@ -29,6 +29,8 @@ class LoginVC: UIViewController {
         
         print(emailTextField.text, passwordTextField.text)
         
+        print("GoT 8 ep 5 sucks")
+        
         if emailTextField.text == "email@me.com",
             passwordTextField.text == "pass" {
             //autentificare valida
