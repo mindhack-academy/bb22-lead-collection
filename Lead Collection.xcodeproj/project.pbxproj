@@ -14,6 +14,8 @@
 		18A5678E2284955A0045F8F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A5678C2284955A0045F8F0 /* LaunchScreen.storyboard */; };
 		18A567962284A7AF0045F8F0 /* FormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A567952284A7AF0045F8F0 /* FormVC.swift */; };
 		18AA2270228B219D007208A8 /* ListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA226F228B219D007208A8 /* ListTVC.swift */; };
+		18BD6C39228F05BD007F8E59 /* new classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD6C38228F05BD007F8E59 /* new classes.swift */; };
+		18BD6C3B228F1736007F8E59 /* FromData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD6C3A228F1736007F8E59 /* FromData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		18A5678F2284955A0045F8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A567952284A7AF0045F8F0 /* FormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormVC.swift; sourceTree = "<group>"; };
 		18AA226F228B219D007208A8 /* ListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTVC.swift; sourceTree = "<group>"; };
+		18BD6C38228F05BD007F8E59 /* new classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "new classes.swift"; sourceTree = "<group>"; };
+		18BD6C3A228F1736007F8E59 /* FromData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				18A5678A2284955A0045F8F0 /* Assets.xcassets */,
 				18A5678C2284955A0045F8F0 /* LaunchScreen.storyboard */,
 				18A5678F2284955A0045F8F0 /* Info.plist */,
+				18BD6C38228F05BD007F8E59 /* new classes.swift */,
+				18BD6C3A228F1736007F8E59 /* FromData.swift */,
 			);
 			path = "Lead Collection";
 			sourceTree = "<group>";
@@ -144,7 +150,9 @@
 				18A567862284955A0045F8F0 /* LoginVC.swift in Sources */,
 				18AA2270228B219D007208A8 /* ListTVC.swift in Sources */,
 				18A567842284955A0045F8F0 /* AppDelegate.swift in Sources */,
+				18BD6C39228F05BD007F8E59 /* new classes.swift in Sources */,
 				18A567962284A7AF0045F8F0 /* FormVC.swift in Sources */,
+				18BD6C3B228F1736007F8E59 /* FromData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
