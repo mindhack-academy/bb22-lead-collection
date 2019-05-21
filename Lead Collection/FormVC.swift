@@ -28,17 +28,17 @@ class FormVC: UIViewController {
     
     @IBAction func sendButtonWasPressed(_ sender: Any) {
    
-        print(
-            firstnameTextField.text,
-              lastnameTextField.text,
-              emailTextField.text,
-              phoneTextField.text,
-              reasonTextView.text,
-              
-              //technologySegmentedController.selectedSegmentIndex,
-              technologySegmentedController.titleForSegment(at: technologySegmentedController.selectedSegmentIndex),
-            
-              contactDateDatePicker.date)
+//        print(
+//            firstnameTextField.text,
+//              lastnameTextField.text,
+//              emailTextField.text,
+//              phoneTextField.text,
+//              reasonTextView.text,
+//
+//              //technologySegmentedController.selectedSegmentIndex,
+//              technologySegmentedController.titleForSegment(at: technologySegmentedController.selectedSegmentIndex),
+//
+//              contactDateDatePicker.date)
         
         
         var user: User = User()
@@ -59,10 +59,33 @@ class FormVC: UIViewController {
         print("----- FORM DATA ----")
         print(formData)
         
+        // add to StorageManager
         
+        StorageManager.shared.addData(formData: formData)
+        
+        // print StorageManager data
+        
+        print(StorageManager.shared.getData())
+        
+        // reset form
+        
+        resetForm()
     }
 
-    @IBAction func resetButtonWasPressed(_ sender: Any) {
+    @IBAction func resetButtonWasPressed(_ sender: Any){
+        resetForm()
+        
     }
-    
+    func resetForm() {
+        
+        firstnameTextField.text = ""
+        lastnameTextField.text = ""
+        emailTextField.text = ""
+        phoneTextField.text = ""
+        reasonTextView.text = ""
+        technologySegmentedController.selectedSegmentIndex = 0
+        contactDateDatePicker.date = Date()
+        firstnameTextField.becomeFirstResponder()
+        
+    }
 }

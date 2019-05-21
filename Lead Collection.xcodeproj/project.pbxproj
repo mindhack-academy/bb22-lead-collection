@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185346D822945857008AC7FE /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185346D722945857008AC7FE /* StorageManager.swift */; };
 		18A567842284955A0045F8F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A567832284955A0045F8F0 /* AppDelegate.swift */; };
 		18A567862284955A0045F8F0 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A567852284955A0045F8F0 /* LoginVC.swift */; };
 		18A567892284955A0045F8F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A567872284955A0045F8F0 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		185346D722945857008AC7FE /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		18A567802284955A0045F8F0 /* Lead Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lead Collection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A567832284955A0045F8F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A567852284955A0045F8F0 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				18A5678F2284955A0045F8F0 /* Info.plist */,
 				18BD6C38228F05BD007F8E59 /* new classes.swift */,
 				18BD6C3A228F1736007F8E59 /* FromData.swift */,
+				185346D722945857008AC7FE /* StorageManager.swift */,
 			);
 			path = "Lead Collection";
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				18A567862284955A0045F8F0 /* LoginVC.swift in Sources */,
 				18AA2270228B219D007208A8 /* ListTVC.swift in Sources */,
 				18A567842284955A0045F8F0 /* AppDelegate.swift in Sources */,
+				185346D822945857008AC7FE /* StorageManager.swift in Sources */,
 				18BD6C39228F05BD007F8E59 /* new classes.swift in Sources */,
 				18A567962284A7AF0045F8F0 /* FormVC.swift in Sources */,
 				18BD6C3B228F1736007F8E59 /* FromData.swift in Sources */,
